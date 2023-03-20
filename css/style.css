@@ -183,6 +183,20 @@ a{
     overflow: hidden;
 }
 
+.post-button {
+    background: #111;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+hr {
+    margin: 10px 0;
+}
+
 .profile{
     display: flex;
     align-items: center;
