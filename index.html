@@ -7,20 +7,67 @@
     <title>Trend Blogger</title>
     <!-- Box-icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
     <header>
         <div class="nav container">
-            <a href="#" class="logo">Code <span>myhobby</span></a>
-            <a href="#" class="login">Sign Up</a>
+            <!-- <a href="#" class="logo">Code <span>myhobby</span></a> -->
+            <a href="index.html" class="logo">softstar</a>
+            <a href="#" class="login" onclick="toggleMenu()">Mais</a>
+
+            <!-- ===============PROFILE-DROP-DOWN-MENU============== -->
+
+            <div class="profile-menu-wrap" id="profileMenu">
+                <div class="profile-menu">
+                    <div class="user-info">
+                        <img src="images/profile-1.jpg" alt="">
+                        <div>
+                            <h3>Roni Wellington</h3>
+                            <a href="profile.html">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="#" class="profile-menu-link">
+                        <img src="imgmenu/home.png" alt="">
+                        <p>Home</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="profile-menu-link">
+                        <img src="imgmenu/setting.png" alt="">
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="profile-menu-link">
+                        <img src="imgmenu/help.png" alt="">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="profile-menu-link">
+                        <img src="imgmenu/display.png" alt="">
+                        <p>display & Access</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="profile-menu-link">
+                        <img src="imgmenu/logout.png" alt="">
+                        <p>logout</p>
+                        <span>></span>
+                    </a>
+
+                </div>
+            </div>
         </div>
     </header>
 
     <section class="home" id="home">
         <div class="home-text container">
-            <h2 class="home-title">Trend Blogger</h2>
-            <span class="home-subtitle">Your source of great content</span>
+            <h2 class="home-title">Ciência e Tecnologia</h2>
+            <span class="home-subtitle">Astronomia, mercado, linguagens de programação e mais.</span>
         </div>
     </section>
 
