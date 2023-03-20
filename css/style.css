@@ -83,6 +83,10 @@ a{
     min-height: 500px;
 }
 
+.fitBg {
+    border-radius: 10px;
+}
+
 .btn2{
     position: relative;
     display: inline-block;
