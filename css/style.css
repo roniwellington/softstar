@@ -442,8 +442,8 @@ footer p{
 }
 
 @media (max-width: 396px){
-    .home-title{
-        font-size: 2rem;
+    .home .home-title{
+        font-size: 1.5rem;
     }
 
     .home-subtitle{
@@ -472,6 +472,14 @@ footer p{
 
     .header-img{
         height: 340px;
+    }
+
+    .about .titleText {
+        font-size: 1.5rem;
+    }
+
+    .about .title-text {
+        font-weight: 400;
     }
 }
 

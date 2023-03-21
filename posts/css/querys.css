@@ -144,4 +144,8 @@
       display: block; 
     }
 
+    .post p {
+      font-size: 18px;
+    }
+
   }
